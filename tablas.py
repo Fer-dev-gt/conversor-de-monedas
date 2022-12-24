@@ -14,7 +14,7 @@ def run():
 
     if 0 < tabla < 11:
         for i in range(1,11):
-            print(str(tabla) + " multiplicado por " + str(i) + " es igual a: " + str(tabla * i))
+            print(f"{tabla} multiplicado por {i} es igual a: {tabla * i}")
     else:
         print("Escoge una tabla de entre el 1 al 10")
 
