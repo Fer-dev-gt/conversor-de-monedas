@@ -26,7 +26,7 @@ elif opcion == 3: #pesos mexicanos
 elif opcion == 4: #quetzales
     valor_dolar = conversor("quetzales", 7.87)
     #Conversor de dólares a quetzales 
-    dolares = float(input("Bienvenido, ¿Cuántos dólares convertirá a quetzales?: "))
+    dolares = float(input("¿Cuántos dólares convertirá a quetzales?: "))
     quetzales = round(valor_dolar * dolares, 2)
     quetzales = str(quetzales)
     print("Tienes Q" + quetzales + " quetzales")
