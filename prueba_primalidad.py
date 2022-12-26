@@ -21,10 +21,8 @@ def es_primo(numero):
     return True
     
 
-
-
 def run():
-    numero = int(input("Escribe un número: "))
+    numero = int(input("Escribe un número: \n"))
     if es_primo(numero):
         print("Es primo")
     else:
