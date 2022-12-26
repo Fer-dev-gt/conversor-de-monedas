@@ -1,6 +1,6 @@
 def es_primo(numero):
-    contador = 0
-
+    """Esta es la primera forma para encontrar un numero primo, esta versión no es eficiente con 10 lineas de codigo...
+        contador = 0
     for i in range (1, numero + 1):
         if i == 1 or i == numero:
             continue
@@ -9,7 +9,17 @@ def es_primo(numero):
     if contador == 0:
         return True
     else:
+        return False"""
+
+    # Esta versión es eficiente con 6 lineas de código
+    if numero == 1 or numero == 0:
         return False
+
+    for i in range (2, numero):
+        if (numero % i) == 0:
+            return False
+    return True
+    
 
 
 
